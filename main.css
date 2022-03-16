@@ -1,0 +1,152 @@
+* {
+  padding: 10px 10px;
+  background-color: #e1f2fb;
+  font-family: Helvetica;
+}
+
+#name {
+  font-weight: 200;
+  /*  background-color: orchid;*/
+  display: block;
+  padding-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#name a {
+  font-size: 40px;
+  letter-spacing: 3px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /*    background-color:orange;*/
+  text-decoration: none;
+  text-decoration: bold;
+  color: black;
+  width: 50%;
+  border-bottom: 2px solid gray;
+}
+
+.nav-cont {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+  margin-top: 0px;
+  /*  background-color: #ff7675;*/
+}
+
+.nav-cont li {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 30px;
+  /*    background-color: blueviolet;*/
+}
+
+body {
+  font-size: 16px;
+}
+
+/*afasdfasdf*/
+
+.nav-cont a {
+  text-decoration: none;
+  color: gray;
+}
+
+.nav-cont a:hover {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.nav-cont a:active {
+  text-decoration: none;
+  color: lightgray;
+}
+
+#introduction {
+  vertical-align: top;
+}
+
+.pic-of-me {
+  float: left;
+  max-height: 40%;
+  max-width: 40%;
+  overflow: auto;
+  margin-right: 20px;
+}
+
+.intro-div {
+  /*    background-color:darkorchid;*/
+  display: block;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  color: gray;
+  letter-spacing: 1px;
+}
+
+.this {
+  background-color: whitesmoke;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 30px;
+  /*  color: darkblue;*/
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.photoList {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.photoList img {
+  margin: 15px;
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picLink {
+  width: 10%;
+  background-color: transparent;
+}
+
+#seperator {
+  margin-top: 50px;
+  height: 50px;
+  width: auto;
+  /*  background-color: burlywood;*/
+}
+
+#bottom_part {
+  margin-top: 50px;
+  border-top: 50px;
+  margin-left: 70px;
+  bottom: 0;
+  width: auto;
+  /*  background-color: gray;*/
+}
